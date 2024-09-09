@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3298C362C8F620B0086999B /* BikeTopInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3298C352C8F620B0086999B /* BikeTopInfoTableViewCell.swift */; };
+		D3298C382C8F66DF0086999B /* BikeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3298C372C8F66DF0086999B /* BikeHeaderView.swift */; };
 		D3AE32A92C8ECF4500B5C7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32A82C8ECF4500B5C7F7 /* AppDelegate.swift */; };
 		D3AE32AB2C8ECF4500B5C7F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32AA2C8ECF4500B5C7F7 /* SceneDelegate.swift */; };
-		D3AE32AD2C8ECF4500B5C7F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32AC2C8ECF4500B5C7F7 /* ViewController.swift */; };
-		D3AE32B02C8ECF4500B5C7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32AE2C8ECF4500B5C7F7 /* Main.storyboard */; };
 		D3AE32B22C8ECF4600B5C7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32B12C8ECF4600B5C7F7 /* Assets.xcassets */; };
 		D3AE32B52C8ECF4600B5C7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AE32B32C8ECF4600B5C7F7 /* LaunchScreen.storyboard */; };
 		D3AE32C02C8ECF4600B5C7F7 /* BAT_iOS_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32BF2C8ECF4600B5C7F7 /* BAT_iOS_testingTests.swift */; };
 		D3AE32CA2C8ECF4700B5C7F7 /* BAT_iOS_testingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32C92C8ECF4700B5C7F7 /* BAT_iOS_testingUITests.swift */; };
 		D3AE32CC2C8ECF4700B5C7F7 /* BAT_iOS_testingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32CB2C8ECF4700B5C7F7 /* BAT_iOS_testingUITestsLaunchTests.swift */; };
+		D3AE32DC2C8ED19300B5C7F7 /* ColorSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32DB2C8ED19300B5C7F7 /* ColorSets.swift */; };
+		D3AE32DF2C8EDE4500B5C7F7 /* SearchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32DE2C8EDE4500B5C7F7 /* SearchingViewController.swift */; };
+		D3AE32E22C8EE3EE00B5C7F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32E12C8EE3EE00B5C7F7 /* Model.swift */; };
+		D3AE32E42C8EE49700B5C7F7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32E32C8EE49700B5C7F7 /* MenuView.swift */; };
+		D3AE32E62C8EE5C200B5C7F7 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32E52C8EE5C200B5C7F7 /* LoginButton.swift */; };
+		D3AE32E82C8EE97500B5C7F7 /* InstructionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32E72C8EE97500B5C7F7 /* InstructionButton.swift */; };
+		D3AE32EA2C8EE9AB00B5C7F7 /* ChargingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32E92C8EE9AB00B5C7F7 /* ChargingButton.swift */; };
+		D3AE32EC2C8EE9CD00B5C7F7 /* StationInfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32EB2C8EE9CD00B5C7F7 /* StationInfoButton.swift */; };
+		D3AE32EE2C8EE9F100B5C7F7 /* NewsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32ED2C8EE9F100B5C7F7 /* NewsButton.swift */; };
+		D3AE32F02C8EEA1700B5C7F7 /* EventAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32EF2C8EEA1700B5C7F7 /* EventAreaButton.swift */; };
+		D3AE32F32C8EF3BB00B5C7F7 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32F22C8EF3BB00B5C7F7 /* CancelButton.swift */; };
+		D3AE32FA2C8F35AF00B5C7F7 /* BikeInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE32F92C8F35AF00B5C7F7 /* BikeInfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3298C352C8F620B0086999B /* BikeTopInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTopInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D3298C372C8F66DF0086999B /* BikeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeHeaderView.swift; sourceTree = "<group>"; };
 		D3AE32A52C8ECF4500B5C7F7 /* BAT_iOS_testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAT_iOS_testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AE32A82C8ECF4500B5C7F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3AE32AA2C8ECF4500B5C7F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3AE32AC2C8ECF4500B5C7F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3AE32AF2C8ECF4500B5C7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3AE32B12C8ECF4600B5C7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3AE32B42C8ECF4600B5C7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AE32B62C8ECF4600B5C7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		D3AE32C52C8ECF4600B5C7F7 /* BAT_iOS_testingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAT_iOS_testingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AE32C92C8ECF4700B5C7F7 /* BAT_iOS_testingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAT_iOS_testingUITests.swift; sourceTree = "<group>"; };
 		D3AE32CB2C8ECF4700B5C7F7 /* BAT_iOS_testingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAT_iOS_testingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3AE32D82C8ECF6600B5C7F7 /* Test_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3AE32DB2C8ED19300B5C7F7 /* ColorSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSets.swift; sourceTree = "<group>"; };
+		D3AE32DD2C8ED82000B5C7F7 /* Test_2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test_2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D3AE32DE2C8EDE4500B5C7F7 /* SearchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingViewController.swift; sourceTree = "<group>"; };
+		D3AE32E12C8EE3EE00B5C7F7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D3AE32E32C8EE49700B5C7F7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D3AE32E52C8EE5C200B5C7F7 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		D3AE32E72C8EE97500B5C7F7 /* InstructionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionButton.swift; sourceTree = "<group>"; };
+		D3AE32E92C8EE9AB00B5C7F7 /* ChargingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingButton.swift; sourceTree = "<group>"; };
+		D3AE32EB2C8EE9CD00B5C7F7 /* StationInfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoButton.swift; sourceTree = "<group>"; };
+		D3AE32ED2C8EE9F100B5C7F7 /* NewsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsButton.swift; sourceTree = "<group>"; };
+		D3AE32EF2C8EEA1700B5C7F7 /* EventAreaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAreaButton.swift; sourceTree = "<group>"; };
+		D3AE32F22C8EF3BB00B5C7F7 /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		D3AE32F92C8F35AF00B5C7F7 /* BikeInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeInfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,16 @@
 		D3AE32A72C8ECF4500B5C7F7 /* BAT_iOS_testing */ = {
 			isa = PBXGroup;
 			children = (
-				D3AE32A82C8ECF4500B5C7F7 /* AppDelegate.swift */,
-				D3AE32AA2C8ECF4500B5C7F7 /* SceneDelegate.swift */,
-				D3AE32AC2C8ECF4500B5C7F7 /* ViewController.swift */,
-				D3AE32AE2C8ECF4500B5C7F7 /* Main.storyboard */,
-				D3AE32B12C8ECF4600B5C7F7 /* Assets.xcassets */,
-				D3AE32B32C8ECF4600B5C7F7 /* LaunchScreen.storyboard */,
+				D3AE32E02C8EE24800B5C7F7 /* Supporting Files */,
+				D3AE32FF2C8F4B4200B5C7F7 /* Custom Cells */,
+				D3AE32F12C8EEA3000B5C7F7 /* Custom Buttons */,
+				D3AE33012C8F4B9200B5C7F7 /* Constants */,
+				D3AE33002C8F4B6B00B5C7F7 /* Modal */,
+				D3AE32DE2C8EDE4500B5C7F7 /* SearchingViewController.swift */,
+				D3AE32E32C8EE49700B5C7F7 /* MenuView.swift */,
 				D3AE32B62C8ECF4600B5C7F7 /* Info.plist */,
+				D3AE32D82C8ECF6600B5C7F7 /* Test_1.playground */,
+				D3AE32DD2C8ED82000B5C7F7 /* Test_2.playground */,
 			);
 			path = BAT_iOS_testing;
 			sourceTree = "<group>";
@@ -127,6 +156,57 @@
 			path = BAT_iOS_testingUITests;
 			sourceTree = "<group>";
 		};
+		D3AE32E02C8EE24800B5C7F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32A82C8ECF4500B5C7F7 /* AppDelegate.swift */,
+				D3AE32AA2C8ECF4500B5C7F7 /* SceneDelegate.swift */,
+				D3AE32B12C8ECF4600B5C7F7 /* Assets.xcassets */,
+				D3AE32B32C8ECF4600B5C7F7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3AE32F12C8EEA3000B5C7F7 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32E52C8EE5C200B5C7F7 /* LoginButton.swift */,
+				D3AE32E72C8EE97500B5C7F7 /* InstructionButton.swift */,
+				D3AE32F22C8EF3BB00B5C7F7 /* CancelButton.swift */,
+				D3AE32E92C8EE9AB00B5C7F7 /* ChargingButton.swift */,
+				D3AE32EB2C8EE9CD00B5C7F7 /* StationInfoButton.swift */,
+				D3AE32ED2C8EE9F100B5C7F7 /* NewsButton.swift */,
+				D3AE32EF2C8EEA1700B5C7F7 /* EventAreaButton.swift */,
+			);
+			path = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		D3AE32FF2C8F4B4200B5C7F7 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D3298C352C8F620B0086999B /* BikeTopInfoTableViewCell.swift */,
+				D3298C372C8F66DF0086999B /* BikeHeaderView.swift */,
+				D3AE32F92C8F35AF00B5C7F7 /* BikeInfoTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		D3AE33002C8F4B6B00B5C7F7 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32E12C8EE3EE00B5C7F7 /* Model.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		D3AE33012C8F4B9200B5C7F7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE32DB2C8ED19300B5C7F7 /* ColorSets.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +223,8 @@
 			dependencies = (
 			);
 			name = BAT_iOS_testing;
+			packageProductDependencies = (
+			);
 			productName = BAT_iOS_testing;
 			productReference = D3AE32A52C8ECF4500B5C7F7 /* BAT_iOS_testing.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +297,8 @@
 				Base,
 			);
 			mainGroup = D3AE329C2C8ECF4500B5C7F7;
+			packageReferences = (
+			);
 			productRefGroup = D3AE32A62C8ECF4500B5C7F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +317,6 @@
 			files = (
 				D3AE32B52C8ECF4600B5C7F7 /* LaunchScreen.storyboard in Resources */,
 				D3AE32B22C8ECF4600B5C7F7 /* Assets.xcassets in Resources */,
-				D3AE32B02C8ECF4500B5C7F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +341,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3AE32AD2C8ECF4500B5C7F7 /* ViewController.swift in Sources */,
+				D3AE32E82C8EE97500B5C7F7 /* InstructionButton.swift in Sources */,
+				D3AE32DF2C8EDE4500B5C7F7 /* SearchingViewController.swift in Sources */,
+				D3AE32EC2C8EE9CD00B5C7F7 /* StationInfoButton.swift in Sources */,
+				D3AE32E42C8EE49700B5C7F7 /* MenuView.swift in Sources */,
+				D3AE32F32C8EF3BB00B5C7F7 /* CancelButton.swift in Sources */,
+				D3AE32E62C8EE5C200B5C7F7 /* LoginButton.swift in Sources */,
+				D3298C362C8F620B0086999B /* BikeTopInfoTableViewCell.swift in Sources */,
+				D3AE32DC2C8ED19300B5C7F7 /* ColorSets.swift in Sources */,
 				D3AE32A92C8ECF4500B5C7F7 /* AppDelegate.swift in Sources */,
+				D3AE32FA2C8F35AF00B5C7F7 /* BikeInfoTableViewCell.swift in Sources */,
+				D3AE32E22C8EE3EE00B5C7F7 /* Model.swift in Sources */,
 				D3AE32AB2C8ECF4500B5C7F7 /* SceneDelegate.swift in Sources */,
+				D3AE32EE2C8EE9F100B5C7F7 /* NewsButton.swift in Sources */,
+				D3AE32EA2C8EE9AB00B5C7F7 /* ChargingButton.swift in Sources */,
+				D3AE32F02C8EEA1700B5C7F7 /* EventAreaButton.swift in Sources */,
+				D3298C382C8F66DF0086999B /* BikeHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3AE32AE2C8ECF4500B5C7F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3AE32AF2C8ECF4500B5C7F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3AE32B32C8ECF4600B5C7F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +535,6 @@
 				INFOPLIST_FILE = BAT_iOS_testing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +562,6 @@
 				INFOPLIST_FILE = BAT_iOS_testing/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
